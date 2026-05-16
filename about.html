@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    
+    <title>About Us - Online Quiz</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header Styling */
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            color: #007BFF;
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #555;
+            font-size: 1.2rem;
+        }
+
+        /* Mission Section Styling */
+        .mission {
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            animation: fadeIn 1s;
+        }
+
+        .mission h2 {
+            font-size: 2rem;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .mission p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        /* Team Section Styling */
+        .team {
+            text-align: center;
+        }
+
+        .team h2 {
+            font-size: 2rem;
+            margin-top: 30px;
+            color: #007BFF;
+        }
+
+        .team ul {
+            list-style-type: none;
+            padding-left: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .team li {
+            margin: 15px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .team li:hover {
+            transform: scale(1.05);
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>About Us</h1>
+            <p>Welcome to the Online Quiz Challenge!</p>
+        </div>
+
+        <div class="mission">
+            <h2>Our Mission</h2>
+            <p>We are on a mission to make learning fun and engaging through our online quiz platform. We believe that everyone can benefit from a little knowledge, and our quizzes are designed to expand your horizons while having a great time.</p>
+        </div>
+
+        <div class="team">
+            <h2>Meet Our Team</h2>
+            <ul>
+                <li>
+                    <h3>ABC</h3>
+                    <p>Founder and Quizmaster</p>
+                </li>
+                <li>
+                    <h3>DEF</h3>
+                    <p>Content Developer</p>
+                </li>
+                <li>
+                    <h3>GHI</h3>
+                    <p>Web Developer</p>
+                </li>
+                <!-- Add more team members as needed -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="about.js"></script>
+</body>
+</html>
